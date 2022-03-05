@@ -1,0 +1,5 @@
+# ignore all hidden files and directories
+.*
+Capture.PNG
+# don't ignore .gitignore
+!.gitignore
