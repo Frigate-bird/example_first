@@ -5,12 +5,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
-    --primary-color: rgb(255,255,255);
+    font-size: 1.1em;
+    --primary-color: #fff;
     --secondary-color: #333;
+    --third-color: #eaeaea;
 }
 
 #header {
-    width: 100vw;
+    width: 100%;
     height: 450px;
     background: var(--secondary-color) url(https://static.pexels.com/photos/248515/pexels-photo-248515.png);
     background-size: cover;
@@ -21,21 +23,20 @@ body {
     z-index: -1; 
  }
 
- #header h1 {
+#header h1 {
     /* text-align: center; */
-    font-size: 2em;
     font-weight: bold;
     padding-top: 110px;
  }
 
- #header p {
+#header p {
     /* text-align: center;  */
     font-size: 1.1em;
     padding-top: 20px;
     max-width: 830px;
  }
 
- #header a {
+#header a {
     border: 0.5px solid #666;
     color: inherit;
     background: var(--secondary-color);
@@ -48,8 +49,109 @@ body {
     width: 130px;    
  }
 
- #header a:hover {
+#header a:hover {
    border: 1px solid rgb(0,0,0);
    background: var(--primary-color);
    color: var(--secondary-color);
  }
+
+#webapp {
+    height: 220px;
+    /* width: 100vw; */
+    background: var(--third-color);
+    color: var(--secondary-color);
+    text-align: center;
+ }
+
+#webapp h2 {
+   padding-top: 30px;
+}
+
+#webapp p {
+   padding-top: 30px;
+   max-width: 850px;
+   column-count: 2;
+   column-gap: 2em;
+}
+
+#cards {
+    height: 580px;
+    /* width: 100vw; */
+    text-align: center;
+    background: var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+#cards div {
+    background: var(--primary-color);
+    width: 270px;
+    height: 500px;
+    display: inline-block;
+    margin: 40px 8px; 
+}
+
+#cards p {
+   max-width: 220px;
+}
+
+#digneeds {
+   height: 220px;
+   /* width: 100vw; */
+   background: var(--primary-color);
+   color: var(--secondary-color);
+   text-align: center;
+}
+
+#digneeds h2 {
+   padding-top: 30px;
+}
+
+#digneeds p {
+   padding-top: 30px;
+   max-width: 850px;
+}
+
+#contact-about {
+   height: 300px;
+   width: 100%;
+   text-align: center;
+   background: var(--secondary-color);
+   color: var(--primary-color);
+   display: inline-block;
+   vertical-align: top;
+}
+
+#contact {
+   width: 50%;
+   height: 100%;
+   background: #2690d4;
+   float: left;
+   /* font-size: 1.1em; */
+}
+
+#about {
+   width: 50%;
+   height: 100%;
+   margin: 0;
+   background: var(--secondary-color);
+   float: right;
+   /* font-size: 1.1em; */
+}
+
+#contact-about h2,p {
+   padding-top: 40px;
+   /* font-size: 1.1em; */
+}
+
+#contact-about p {
+   max-width: 550px;
+   /* font-size: 1.1em; */
+}
+
+
+
+#footer {
+   height: 100px;
+   background: #000;
+}
+
