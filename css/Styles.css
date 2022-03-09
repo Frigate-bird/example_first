@@ -76,7 +76,6 @@ body {
 
 #cards {
     height: 580px;
-    /* width: 100vw; */
     text-align: center;
     background: var(--secondary-color);
     color: var(--secondary-color);
@@ -96,18 +95,17 @@ body {
 
 #digneeds {
    height: 220px;
-   /* width: 100vw; */
    background: var(--primary-color);
    color: var(--secondary-color);
    text-align: center;
 }
 
 #digneeds h2 {
-   padding-top: 30px;
+   padding-top: 40px;
 }
 
 #digneeds p {
-   padding-top: 30px;
+   padding-top: 40px;
    max-width: 850px;
 }
 
@@ -121,7 +119,7 @@ body {
    vertical-align: top;
 }
 
-#contact {
+.left {
    width: 50%;
    height: 100%;
    background: #2690d4;
@@ -129,7 +127,7 @@ body {
    /* font-size: 1.1em; */
 }
 
-#about {
+.right {
    width: 50%;
    height: 100%;
    margin: 0;
@@ -140,18 +138,36 @@ body {
 
 #contact-about h2,p {
    padding-top: 40px;
-   /* font-size: 1.1em; */
 }
 
 #contact-about p {
-   max-width: 550px;
-   /* font-size: 1.1em; */
+   max-width: 85%;
 }
-
-
 
 #footer {
-   height: 100px;
+   box-sizing: border-box;
+   height: 94px;
    background: #000;
+   color: var(--primary-color);
+   text-align: center;
+   padding: 33px;
 }
 
+#footer-left {
+   width: 50%;
+   height: 100%;
+   float: left;
+
+}
+
+#footer-right {
+   width: 50%;
+   height: 100%;
+   margin: 0;
+   float: right;
+}
+
+#footer a {
+   text-decoration: none;
+   color: #2690d4;
+}
